@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Calculo de notas</title>
+</head>
+
+<body>
+    <header>
+        <h1>Calculadora de média do aluno</h1>
+    </header>
+    <main>
+        <section id="nome">
+            <p>Para realizar o cálculo digite abaixo o seu nome e clique no botão prosseguir.</p>
+            <input placeholder="Digite seu nome" id="nomeAluno" type="text">
+            <button onclick="salvaNomeUsuario()">Prosseguir</button>
+        </section>
+        <section id="notas">
+            <h2 id="titulo-notas"></h2>
+            <input placeholder="Digite a primeira nota a ser calculada:" id="nota1" type="number">
+            <input placeholder="Digite a segunda nota a ser calculada:" id="nota2" type="number">
+            <input placeholder="Digite a terceira nota a ser calculada:" id="nota3" type="number">
+            <input placeholder="Digite a quarta nota a ser calculada:" id="nota4" type="number">
+            <button class="calculo" onclick="calcularNota()">Calcular</button>
+        </section>
+        <div id="resultado">
+        </div>
+        <span id="botao"></span>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
