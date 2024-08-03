@@ -33,6 +33,12 @@ Ele permite que os usuários insiram suas 4 notas e calculem a média final, ind
 - `style.css`: Contém os estilos CSS para a aplicação.
 - `js/script.js`: Contém o código JavaScript para a lógica da aplicação.
 
+## Layout
+![image](https://github.com/user-attachments/assets/260435a4-843c-4268-86f3-88dbba36fbae)
+![image](https://github.com/user-attachments/assets/3a67bf5d-f096-4b7d-a616-8f30b3eb31e0)
+
+
+
 ## Contribuição
 Se você quiser contribuir com o projeto, sinta-se à vontade para abrir um pull request. Todas as contribuições são bem-vindas!
 
