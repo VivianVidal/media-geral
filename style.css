@@ -1,0 +1,33 @@
+
+body{
+    margin: 0 80px;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #bcbaba;
+}
+#notas{
+    display: none;
+}
+
+#button{
+    display: none;
+}
+
+input{
+    width: 20%;
+    padding: 4px;
+}
+
+.calculo{
+    width: 10%;
+}
+
+#resultado{
+    margin: 20px 0;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+button{
+    padding: 4px 6px;
+}
